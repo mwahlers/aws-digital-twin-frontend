@@ -83,6 +83,6 @@ Amazon Cognito lets you add user sign-up, sign-in, and access control to your we
 
 In AWS IoT Core, create a thing group called `iot-twin-demo` and add the thing(s) that is/are publishing data to Device Shadow.
 
-*Done! You will now be able to see your thin(s) listed in the frontend and can start customizing the application to your needs!*
+*Done! You will now be able to see your thing(s) listed in the frontend and can start customizing the application to your needs!*
 
 
