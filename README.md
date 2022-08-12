@@ -1,17 +1,17 @@
 # AWS Digital Twin Frontend
 
 ## Summary
-This project showcases a web application frontend for a digital twin (="virtual representation of an object or system") using AWS Amplify and the AWS IoT Device Shadow service. The AWS IoT Device Shadow service adds "shadows" to AWS IoT thing objects. Shadows can make a device’s state available to apps and other services whether the device is connected to AWS IoT or not. 
-The frontend application allows you to list devices registered to AWS IoT Device Shadow and display each devices state, while receiving real-time state updates.
+This project showcases a web application frontend for a digital twin (="virtual representation of an object or system") using AWS Amplify and the AWS IoT Device Shadow service. The AWS IoT Device Shadow service adds "shadows" to AWS IoT objects. Shadows can make a device’s state available to apps and other services whether the device is connected to AWS IoT or not. 
+The frontend application in that project allows you to list devices registered to AWS IoT Device Shadow and display each devices state, while receiving real-time state updates.
 
-The project can be used as a starting point / boilerplate for your own digital twin projects.
+The project can be used as a starting point or boilerplate for your own digital twin projects.
 
 ![IoT_Frontend](./img/digital-twin-frontend.png)
 
 
 ## Prerequesites
 ### Device Shadow
-To test this application, you should have at least one IoT thing registered with AWS IoT core and sending device shadow updates. Learn more about connecting devices to AWS IoT [here](https://docs.aws.amazon.com/iot/latest/developerguide/iot-connect-devices.html) and about the AWS IoT Device Shadow service [here](https://docs.aws.amazon.com/iot/latest/developerguide/iot-device-shadows.html).
+To test this project, you should have at least one IoT thing registered with AWS IoT core and sending device shadow updates. Learn more about connecting devices to AWS IoT [here](https://docs.aws.amazon.com/iot/latest/developerguide/iot-connect-devices.html) and about the AWS IoT Device Shadow service [here](https://docs.aws.amazon.com/iot/latest/developerguide/iot-device-shadows.html).
 
 If you own an AWS IoT EduKit, you can follow [this SmartThermostat workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/0fc6bf2c-f59c-4490-9254-ef604942f5d3/en-US/smart-thermostat) to set up Device Shadow for your EduKit.
 
