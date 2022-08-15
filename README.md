@@ -100,6 +100,6 @@ As you can see the main components used in that project are:
 
 If you run it for demo purposes only all costs should be covered by our [free tier](https://aws.amazon.com/free/?nc1=h_ls&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all&all-free-tier.q=iot&all-free-tier.q_operator=AND)
 
-In case you want to use that project as a baseline for your production or a larger PoC the costs heavily depend on your usage (data size, number of devices, users) therefor we would suggtest to use the [AWS calculator] https://calculator.aws to run your on calucation.
+In case you want to use that project as a baseline for your production or a larger PoC the costs heavily depend on your usage (data size, number of devices, users) therefor we would suggtest to use the [AWS calculator](https://calculator.aws) to run your on calucation.
 
 
