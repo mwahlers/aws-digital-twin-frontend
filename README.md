@@ -20,11 +20,17 @@ If you own an AWS IoT EduKit, you can follow [this SmartThermostat workshop](htt
 
 + A local installation of [NodeJS](https://nodejs.org/en/download/) with [NPM](https://docs.npmjs.com/getting-started/installing-node)
 
++ Make sure that the AWS region you use is supporting IoT Deivce Shadow [Overview](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/?nc1=h_ls).
+
+
+
 + The [AWS Ampify CLI](https://aws-amplify.github.io/)
   - `npm install -g @aws-amplify/cli`
   - `amplify configure` 
 
 ## Deployment Instructions
+
+For a best experience ensure torun the complete project in a single region. We used for our demo purposes us-east-1; eu-central-1 and eu-west-1.
 
 ### 1. Clone this repo locally
 
@@ -84,5 +90,15 @@ Amazon Cognito lets you add user sign-up, sign-in, and access control to your we
 In AWS IoT Core, create a thing group called `iot-twin-demo` and add the thing(s) that is/are publishing data to Device Shadow.
 
 *Done! You will now be able to see your thing(s) listed in the frontend and can start customizing the application to your needs!*
+
+## Pricing
+
+As you can see the main components used in that project are:
+* IoT Core
+* Cognito
+* S3
+If you run it for demo purposes only all costs should be covered by our [free tier](https://aws.amazon.com/free/?nc1=h_ls&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all&all-free-tier.q=iot&all-free-tier.q_operator=AND)
+
+If you want to use that project as a baseline for your production the costs heavily depend on your usage (data size, number of devices, users) therefor we would suggtest to use the [AWS calculator] https://calculator.aws to run your on calucation.
 
 
